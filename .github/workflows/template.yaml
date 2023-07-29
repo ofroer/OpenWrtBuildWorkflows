@@ -13,7 +13,7 @@
 #-------------------------------------------------------------------------------------------------------
 
 # Workflow name which is showed in GitHub Actions.
-name: Build Example-Firmware for Example-Device
+name: Build openwrt for ts253d
 
 on:
   workflow_dispatch:
@@ -34,7 +34,7 @@ env:
   # REPO means the OpenWrt repo you want to build from in this workflow. 
   # You can modify the REPO_NAME to any name you want, but remember not to let it have the same name in 
   # other workflows.
-  REPO_NAME: example-name
+  REPO_NAME: Build-openwrt
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   BUILD_DEPENDS:  "ack antlr3 aria2 asciidoc autoconf automake autopoint binutils bison build-essential bzip2 \
