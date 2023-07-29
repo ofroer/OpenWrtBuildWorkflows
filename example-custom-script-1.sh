@@ -35,4 +35,6 @@
 #patch content
 #EOF
 #git apply example.patch
-
+git clone https://github.com/kenzok8/openwrt-packages  package/openwrt-packages
+git clone https://github.com/kenzok8/small.git  package/openwrt-small
+git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
